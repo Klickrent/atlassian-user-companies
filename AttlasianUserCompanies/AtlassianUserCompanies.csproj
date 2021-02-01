@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Authors>Justus Seibt</Authors>
+    <Company>Zeppelin Lab GmbH</Company>
+    <PublishTrimmed>true</PublishTrimmed>
+    
+    <PublishSingleFile>true</PublishSingleFile>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ClosedXML" Version="0.95.0-beta2" />
+    <TrimmerRootAssembly Include="mscorlib" />
+  </ItemGroup>
+
+</Project>
